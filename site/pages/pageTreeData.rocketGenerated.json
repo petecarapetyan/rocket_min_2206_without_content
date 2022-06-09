@@ -1,0 +1,90 @@
+{
+  "title": "Rocket",
+  "h1": "Rocket",
+  "name": "Rocket",
+  "menuLinkText": "Rocket",
+  "url": "/",
+  "outputRelativeFilePath": "index.html",
+  "sourceRelativeFilePath": "index.rocket.html",
+  "level": 0,
+  "children": [
+    {
+      "title": "Rocket",
+      "h1": "About",
+      "name": "About",
+      "menuLinkText": "About",
+      "url": "/about/",
+      "outputRelativeFilePath": "about/index.html",
+      "sourceRelativeFilePath": "about.rocket.js",
+      "level": 1
+    },
+    {
+      "title": "Rocket",
+      "h1": "Hi There!",
+      "name": "Hi There!",
+      "menuLinkText": "Hi There!",
+      "url": "/hi/",
+      "outputRelativeFilePath": "hi/index.html",
+      "sourceRelativeFilePath": "hi.rocket.js",
+      "level": 1
+    },
+    {
+      "title": "Rickets",
+      "h1": "Foo",
+      "name": "Foo",
+      "menuLinkText": "Foo",
+      "url": "/foo/",
+      "outputRelativeFilePath": "foo/index.html",
+      "sourceRelativeFilePath": "foo/index.rocket.html",
+      "level": 1,
+      "children": [
+        {
+          "title": "Rackets",
+          "h1": "Bar",
+          "name": "Bar",
+          "menuLinkText": "Bar",
+          "url": "/foo/bar/",
+          "outputRelativeFilePath": "foo/bar/index.html",
+          "sourceRelativeFilePath": "foo/bar/index.rocket.html",
+          "level": 2,
+          "children": [
+            {
+              "name": "YODELING FOR FUN",
+              "menuLinkText": "YODELING FOR FUN",
+              "url": "/foo/bar/ace/",
+              "outputRelativeFilePath": "foo/bar/ace/index.html",
+              "sourceRelativeFilePath": "foo/bar/ace.rocket.md",
+              "level": 3,
+              "title": "Rackets",
+              "h1": "YODELING FOR FUN",
+              "headlinesWithId": [
+                {
+                  "text": "YODELING FOR FUN",
+                  "id": "yodeling-for-fun",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wah Wah Wah",
+          "menuLinkText": "Wah Wah Wah",
+          "url": "/foo/wah/",
+          "outputRelativeFilePath": "foo/wah/index.html",
+          "sourceRelativeFilePath": "foo/wah/index.rocket.md",
+          "level": 2,
+          "title": "Rocket",
+          "h1": "Wah Wah Wah",
+          "headlinesWithId": [
+            {
+              "text": "Wah Wah Wah",
+              "id": "wah-wah-wah",
+              "level": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
