@@ -26,3 +26,9 @@ The content is placed in https://github.com/petecarapetyan/rocket_min_2206_conte
 ## Really? Are you sure?
 
 No
+
+## For Comparison/Validation
+
+The following control repo was the source of both content and this repo, so that a running comparison could be established as working, before splitting content off into a separate repository
+
+- https://github.com/petecarapetyan/rocket_min_2206_source_comparison_control
